@@ -1,0 +1,464 @@
+.project__page_one {
+    background-image: url(../img/project__one.png);
+}
+
+.project__page_one:focus {
+    background-image: url(../img/project__one__one.png);
+    border: 1px solid var(--grey--btn);
+}
+
+.project__page_one:active {
+    background-image: url(../img/project__one__one.png);
+    border: 1px solid var(--violet);
+}
+
+.project__page_two {
+    background-image: url(../img/project__two.png);
+}
+
+.project__page_two:focus {
+    background-image: url(../img/project__two__two.png);
+    border: 1px solid var(--grey--btn);
+}
+
+.project__page_two:active {
+    background-image: url(../img/project__two__two.png);
+    border: 1px solid var(--violet);
+}
+
+.project__page_three {
+    background-image: url(../img/project__three.png);
+}
+
+.project__page_three:focus {
+    background-image: url(../img/project__three__three.png);
+    border: 1px solid var(--grey--btn);
+}
+
+.project__page_three:active {
+    background-image: url(../img/project__three__three.png);
+    border: 1px solid var(--violet);
+}
+
+.project__page_four {
+    background-image: url(../img/project__four.png);
+}
+
+.project__page_four:focus {
+    background-image: url(../img/project__four__four.png);
+    border: 1px solid var(--grey--btn);
+}
+
+.project__page_four:active {
+    background-image: url(../img/project__four__four.png);
+    border: 1px solid var(--violet);
+}
+
+.project__page_five {
+    background-image: url(../img/project__five.png);
+}
+
+.project__page_five:focus {
+    background-image: url(../img/project__five__five.png);
+    border: 1px solid var(--grey--btn);
+}
+
+.project__page_five:active {
+    background-image: url(../img/project__five__five.png);
+    border: 1px solid var(--violet);
+}
+
+.project__page_six {
+    background-image: url(../img/project__six.png);
+}
+
+.project__page_six:focus {
+    background-image: url(../img/project__six__six.png);
+    border: 1px solid var(--grey--btn);
+}
+
+.project__page_six:active {
+    background-image: url(../img/project__six__six.png);
+    border: 1px solid var(--violet);
+}
+
+.project__page_seven {
+    background-image: url(../img/project__seven.png);
+}
+
+.project__page_seven:focus {
+    background-image: url(../img/project__seven__seven.png);
+    border: 1px solid var(--grey--btn);
+}
+
+.project__page_seven:active {
+    background-image: url(../img/project__seven__seven.png);
+    border: 1px solid var(--violet);
+}
+
+.project__page_eight {
+    background-image: url(../img/project__eight.png);
+}
+
+.project__page_eight:focus {
+    background-image: url(../img/project__eight__eight.png);
+    border: 1px solid var(--grey--btn);
+}
+
+.project__page_eight:active {
+    background-image: url(../img/project__eight__eight.png);
+    border: 1px solid var(--violet);
+}
+
+.project__page_nine {
+    background-image: url(../img/project__nine.png);
+}
+
+.project__page_nine:focus {
+    background-image: url(../img/project__nine__nine.png);
+    border: 1px solid var(--grey--btn);
+}
+
+.project__page_nine:active {
+    background-image: url(../img/project__nine__nine.png);
+    border: 1px solid var(--violet);
+}
+
+/*item*/
+
+.item__one {
+    background-image:url(../img/item__one.png);
+  }
+
+  .item__one:active {
+    background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
+     url(../img/item__one.png);
+  }
+
+  .item__two {
+    background-image:url(../img/item__two.png);
+  }
+
+  .item__two:active {
+    background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
+     url(../img/item__two.png);
+  }
+
+  .item__three {
+    background-image:url(../img/item__three.png);
+  }
+
+  .item__three:active {
+    background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
+     url(../img/item__three.png);
+  }
+
+  .item__four {
+    background-image:url(../img/item__four.png);
+  }
+
+  .item__four:active {
+    background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
+     url(../img/item__four.png);
+  }
+
+  .item__five {
+    background-image:url(../img/item__one.png);
+  }
+
+  .item__five:active {
+    background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
+     url(../img/item__five.png);
+  }
+
+  .item__six {
+    background-image:url(../img/item__two.png);
+  }
+
+  .item__six:active {
+    background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
+     url(../img/item__six.png);
+  }
+
+  .item__seven {
+    background-image:url(../img/item__three.png);
+  }
+
+  .item__seven:active {
+    background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
+     url(../img/item__seven.png);
+  }
+
+  .item__eight {
+    background-image:url(../img/item__eight.png);
+  }
+
+  .item__eight:active {
+    background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
+     url(../img/item__eight.png);
+  }
+
+  .item__nine {
+    background-image:url(../img/item__nine.png);
+  }
+
+  .item__nine:active {
+    background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
+     url(../img/item__nine.png);
+  }
+
+  .item__ten {
+    background-image:url(../img/item__ten.png);
+  }
+
+  .item__ten:active {
+    background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
+     url(../img/item__ten.png);
+  }
+
+  .item__eleven {
+    background-image:url(../img/item__eleven.png);
+  }
+
+  .item__eleven:active {
+    background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
+     url(../img/item__eleven.png);
+  }
+
+  .item__twalve {
+    background-image:url(../img/item__eight.png);
+  }
+
+  .item__twalve:active {
+    background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
+     url(../img/item__twalve.png);
+  }
+
+  .item__thirteen {
+    background-image:url(../img/item__nine.png);
+  }
+
+  .item__thirteen:active {
+    background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
+     url(../img/item__thirteen.png);
+  }
+
+  .item__fourteen {
+    background-image:url(../img/item__ten.png);
+  }
+
+  .item__fourteen:active {
+    background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
+     url(../img/item__fourteen.png);
+  }
+
+  .item__fifteen {
+    background-image:url(../img/item__fifteen.png);
+  }
+
+  .item__fifteen:active {
+    background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
+     url(../img/item__fifteen.png);
+  }
+
+  .item__sixteen {
+    background-image:url(../img/item__sixteen.png);
+  }
+
+  .item__sixteen:active {
+    background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
+     url(../img/item__sixteen.png);
+  }
+
+  .item__seventeen {
+    background-image:url(../img/item__seventeen.png);
+  }
+
+  .item__seventeen:active {
+    background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
+     url(../img/item__seventeen.png);
+  }
+
+  .item__eighteen {
+    background-image:url(../img/item__eighteen.png);
+  }
+
+  .item__eighteen:active {
+    background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
+     url(../img/item__eighteen.png);
+  }
+
+  .item__nineteen {
+    background-image:url(../img/item__fifteen.png);
+  }
+
+  .item__nineteen:active {
+    background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
+     url(../img/item__nineteen.png);
+  }
+
+  .item__twenty {
+    background-image:url(../img/item__sixteen.png);
+  }
+
+  .item__twenty:active {
+    background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
+     url(../img/item__twenty.png);
+  }
+
+  .item__twentyOne {
+    background-image:url(../img/item__seventeen.png);
+  }
+
+  .item__twentyOne:active {
+    background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
+     url(../img/item__twentyOne.png);
+  }
+
+  .item__twentyTwo {
+    background-image:url(../img/item__twentyTwo.png);
+  }
+
+  .item__twentyTwo:active {
+    background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
+     url(../img/item__twentyTwo.png);
+  }
+
+  .item__twentyThree {
+    background-image:url(../img/item__twentyThree.png);
+  }
+
+  .item__twentyThree:active {
+    background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
+     url(../img/item__twentyThree.png);
+  }
+
+  .item__twentyFour {
+    background-image:url(../img/item__twentyFour.png);
+  }
+
+  .item__twentyFour:active {
+    background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
+     url(../img/item__twentyFour.png);
+  }
+
+  .item__twentyFive {
+    background-image:url(../img/item__twentyFive.png);
+  }
+
+  .item__twentyFive:active {
+    background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
+     url(../img/item__twentyFive.png);
+  }
+
+  .item__twentySix {
+    background-image:url(../img/item__twentyTwo.png);
+  }
+
+  .item__twentySix:active {
+    background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
+     url(../img/item__twentySix.png);
+  }
+
+  .item__twentySeven {
+    background-image:url(../img/item__twentyThree.png);
+  }
+
+  .item__twentySeven:active {
+    background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
+     url(../img/item__twentySeven.png);
+  }
+
+  .item__twentyEight {
+    background-image:url(../img/item__twentyFour.png);
+  }
+
+  .item__twentyEight:active {
+    background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
+     url(../img/item__twentyEight.png);
+  }
+
+  .item__twentyNine {
+    background-image:url(../img/item__twentyNine.png);
+  }
+
+  .item__twentyNine:active {
+    background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
+     url(../img/item__twentyNine.png);
+  }
+
+  .item__thirty {
+    background-image:url(../img/item__thirty.png);
+  }
+
+  .item__thirty:active {
+    background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
+     url(../img/item__thirty.png);
+  }
+
+  .item__thirtyOne {
+    background-image:url(../img/item__thirtyOne.png);
+  }
+
+  .item__thirtyOne:active {
+    background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
+     url(../img/item__thirtyOne.png);
+  }
+
+  .item__thirtyTwo {
+    background-image:url(../img/item__thirtyTwo.png);
+  }
+
+  .item__thirtyTwo:active {
+    background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
+     url(../img/item__thirtyTwo.png);
+  }
+
+  .item__thirtyThree {
+    background-image:url(../img/item__twentyNine.png);
+  }
+
+  .item__thirtyThree:active {
+    background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
+     url(../img/item__thirtyThree.png);
+  }
+
+  .item__thirtyFour {
+    background-image:url(../img/item__thirty.png);
+  }
+
+  .item__thirtyFour:active {
+    background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
+     url(../img/item__thirtyFour.png);
+  }
+
+  .item__thirtyFive {
+    background-image:url(../img/item__thirtyOne.png);
+  }
+
+  .item__thirtyFive:active {
+    background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
+     url(../img/item__thirtyFive.png);
+  }
+
+  /*catalog*/
+
+  .catalog__image_one {
+    background-image: url(../img/girlandayo.png);
+  }
+
+  .catalog__image_two {
+    background-image: url(../img/Ambrogio-Lorenzetti.jpg);
+  }
+
+  .catalog__image_three {
+    background-image: url(../img/Bissolo_Marriage_of_St._Catherine.jpg);
+  }
+
+  .catalog__image_four {
+    background-image: url(../img/boltraffio.jpg);
+  }
+
+  .catalog__image_five {
+    background-image: url(../img/francescko.jpg);
+  }
