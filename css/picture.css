@@ -5,11 +5,13 @@
 .project__page_one:focus {
     background-image: url(../img/project__one__one.png);
     border: 1px solid var(--grey--btn);
+    cursor:pointer;
 }
 
 .project__page_one:active {
     background-image: url(../img/project__one__one.png);
     border: 1px solid var(--violet);
+    cursor:pointer;
 }
 
 .project__page_two {
@@ -19,11 +21,13 @@
 .project__page_two:focus {
     background-image: url(../img/project__two__two.png);
     border: 1px solid var(--grey--btn);
+    cursor:pointer;
 }
 
 .project__page_two:active {
     background-image: url(../img/project__two__two.png);
     border: 1px solid var(--violet);
+    cursor:pointer;
 }
 
 .project__page_three {
@@ -33,11 +37,13 @@
 .project__page_three:focus {
     background-image: url(../img/project__three__three.png);
     border: 1px solid var(--grey--btn);
+    cursor:pointer;
 }
 
 .project__page_three:active {
     background-image: url(../img/project__three__three.png);
     border: 1px solid var(--violet);
+    cursor:pointer;
 }
 
 .project__page_four {
@@ -47,11 +53,13 @@
 .project__page_four:focus {
     background-image: url(../img/project__four__four.png);
     border: 1px solid var(--grey--btn);
+    cursor:pointer;
 }
 
 .project__page_four:active {
     background-image: url(../img/project__four__four.png);
     border: 1px solid var(--violet);
+    cursor:pointer;
 }
 
 .project__page_five {
@@ -61,11 +69,13 @@
 .project__page_five:focus {
     background-image: url(../img/project__five__five.png);
     border: 1px solid var(--grey--btn);
+    cursor:pointer;
 }
 
 .project__page_five:active {
     background-image: url(../img/project__five__five.png);
     border: 1px solid var(--violet);
+    cursor:pointer;
 }
 
 .project__page_six {
@@ -75,11 +85,13 @@
 .project__page_six:focus {
     background-image: url(../img/project__six__six.png);
     border: 1px solid var(--grey--btn);
+    cursor:pointer;
 }
 
 .project__page_six:active {
     background-image: url(../img/project__six__six.png);
     border: 1px solid var(--violet);
+    cursor:pointer;
 }
 
 .project__page_seven {
@@ -89,11 +101,13 @@
 .project__page_seven:focus {
     background-image: url(../img/project__seven__seven.png);
     border: 1px solid var(--grey--btn);
+    cursor:pointer;
 }
 
 .project__page_seven:active {
     background-image: url(../img/project__seven__seven.png);
     border: 1px solid var(--violet);
+    cursor:pointer;
 }
 
 .project__page_eight {
@@ -103,11 +117,13 @@
 .project__page_eight:focus {
     background-image: url(../img/project__eight__eight.png);
     border: 1px solid var(--grey--btn);
+    cursor:pointer;
 }
 
 .project__page_eight:active {
     background-image: url(../img/project__eight__eight.png);
     border: 1px solid var(--violet);
+    cursor:pointer;
 }
 
 .project__page_nine {
@@ -117,328 +133,470 @@
 .project__page_nine:focus {
     background-image: url(../img/project__nine__nine.png);
     border: 1px solid var(--grey--btn);
+    cursor:pointer;
 }
 
 .project__page_nine:active {
     background-image: url(../img/project__nine__nine.png);
     border: 1px solid var(--violet);
+    cursor:pointer;
 }
 
 /*item*/
 
-.item__one {
+.dropdown__item__one {
     background-image:url(../img/item__one.png);
   }
 
-  .item__one:active {
-    background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
+  .dropdown__item__one:active {
+    background:linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
      url(../img/item__one.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border: none;
+     cursor: pointer;
   }
 
-  .item__two {
+  .dropdown__item__two {
     background-image:url(../img/item__two.png);
   }
 
-  .item__two:active {
+  .dropdown__item__two:active {
     background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
      url(../img/item__two.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border: none;
+     cursor: pointer;
   }
 
-  .item__three {
+  .dropdown__item__three {
     background-image:url(../img/item__three.png);
   }
 
-  .item__three:active {
+  .dropdown__item__three:active {
     background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
      url(../img/item__three.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border: none;
+     cursor: pointer;
   }
 
-  .item__four {
+  .dropdown__item__four {
     background-image:url(../img/item__four.png);
   }
 
-  .item__four:active {
+  .dropdown__item__four:active {
     background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
      url(../img/item__four.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border: none;
+     cursor: pointer;
   }
 
-  .item__five {
+  .dropdown__item__five {
     background-image:url(../img/item__one.png);
   }
 
-  .item__five:active {
+  .dropdown__item__five:active {
     background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
-     url(../img/item__five.png);
+     url(../img/item__one.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border: none;
+     cursor: pointer;
   }
 
-  .item__six {
+  .dropdown__item__six {
     background-image:url(../img/item__two.png);
   }
 
-  .item__six:active {
+  .dropdown__item__six:active {
     background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
-     url(../img/item__six.png);
+     url(../img/item__two.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border: none;
+     cursor: pointer;
   }
 
-  .item__seven {
+  .dropdown__item__seven {
     background-image:url(../img/item__three.png);
   }
 
-  .item__seven:active {
+  .dropdown__item__seven:active {
     background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
-     url(../img/item__seven.png);
+     url(../img/item__three.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border: none;
+     cursor: pointer;
   }
 
-  .item__eight {
+  .dropdown__item__eight {
     background-image:url(../img/item__eight.png);
   }
 
-  .item__eight:active {
+  .dropdown__item__eight:active {
     background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
      url(../img/item__eight.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border: none;
+     cursor: pointer;
   }
 
-  .item__nine {
+  .dropdown__item__nine {
     background-image:url(../img/item__nine.png);
   }
 
-  .item__nine:active {
+  .dropdown__item__nine:active {
     background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
      url(../img/item__nine.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border: none;
+     cursor: pointer;
   }
 
-  .item__ten {
+  .dropdown__item__ten {
     background-image:url(../img/item__ten.png);
   }
 
-  .item__ten:active {
+  .dropdown__item__ten:active {
     background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
      url(../img/item__ten.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border: none;
+     cursor: pointer;
   }
 
-  .item__eleven {
+  .dropdown__item__eleven {
     background-image:url(../img/item__eleven.png);
   }
 
-  .item__eleven:active {
+  .dropdown__item__eleven:active {
     background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
      url(../img/item__eleven.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border: none;
+     cursor: pointer;
   }
 
-  .item__twalve {
+  .dropdown__item__twalve {
     background-image:url(../img/item__eight.png);
   }
 
-  .item__twalve:active {
+  .dropdown__item__twalve:active {
     background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
-     url(../img/item__twalve.png);
+     url(../img/item__eight.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border: none;
+     cursor: pointer;
   }
 
-  .item__thirteen {
+  .dropdown__item__thirteen {
     background-image:url(../img/item__nine.png);
   }
 
-  .item__thirteen:active {
+  .dropdown__item__thirteen:active {
     background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
-     url(../img/item__thirteen.png);
+     url(../img/item__nine.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border: none;
+     cursor: pointer;
   }
 
-  .item__fourteen {
+  .dropdown__item__fourteen {
     background-image:url(../img/item__ten.png);
   }
 
-  .item__fourteen:active {
+  .dropdown__item__fourteen:active {
     background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
-     url(../img/item__fourteen.png);
+     url(../img/item__ten.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border: none;
+     cursor: pointer;
   }
 
-  .item__fifteen {
+  .dropdown__item__fifteen {
     background-image:url(../img/item__fifteen.png);
   }
 
-  .item__fifteen:active {
+  .dropdown__item__fifteen:active {
     background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
      url(../img/item__fifteen.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border: none;
+     cursor: pointer;
   }
 
-  .item__sixteen {
+  .dropdown__item__sixteen {
     background-image:url(../img/item__sixteen.png);
   }
 
-  .item__sixteen:active {
+  .dropdown__item__sixteen:active {
     background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
      url(../img/item__sixteen.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border: none;
+     cursor: pointer;
   }
 
-  .item__seventeen {
+  .dropdown__item__seventeen {
     background-image:url(../img/item__seventeen.png);
   }
 
-  .item__seventeen:active {
+  .dropdown__item__seventeen:active {
     background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
      url(../img/item__seventeen.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border: none;
+     cursor: pointer;
   }
 
-  .item__eighteen {
+  .dropdown__item__eighteen {
     background-image:url(../img/item__eighteen.png);
   }
 
-  .item__eighteen:active {
+  .dropdown__item__eighteen:active {
     background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
      url(../img/item__eighteen.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border: none;
+     cursor: pointer;
   }
 
-  .item__nineteen {
+  .dropdown__item__nineteen {
     background-image:url(../img/item__fifteen.png);
   }
 
-  .item__nineteen:active {
+  .dropdown__item__nineteen:active {
     background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
-     url(../img/item__nineteen.png);
+     url(../img/item__fifteen.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border: none;
+     cursor: pointer;
   }
 
-  .item__twenty {
+  .dropdown__item__twenty {
     background-image:url(../img/item__sixteen.png);
   }
 
-  .item__twenty:active {
+  .dropdown__item__twenty:active {
     background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
-     url(../img/item__twenty.png);
+     url(../img/item__sixteen.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border: none;
+     cursor: pointer;
   }
 
-  .item__twentyOne {
+  .dropdown__item__twentyOne {
     background-image:url(../img/item__seventeen.png);
   }
 
-  .item__twentyOne:active {
+  .dropdown__item__twentyOne:active {
     background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
-     url(../img/item__twentyOne.png);
+     url(../img/item__seventeen.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border: none;
+     cursor: pointer;
   }
 
-  .item__twentyTwo {
+  .dropdown__item__twentyTwo {
     background-image:url(../img/item__twentyTwo.png);
   }
 
-  .item__twentyTwo:active {
+  .dropdown__item__twentyTwo:active {
     background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
      url(../img/item__twentyTwo.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border: none;
+     cursor: pointer;
   }
 
-  .item__twentyThree {
+  .dropdown__item__twentyThree {
     background-image:url(../img/item__twentyThree.png);
   }
 
-  .item__twentyThree:active {
+  .dropdown__item__twentyThree:active {
     background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
      url(../img/item__twentyThree.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border: none;
+     cursor: pointer;
   }
 
-  .item__twentyFour {
+  .dropdown__item__twentyFour {
     background-image:url(../img/item__twentyFour.png);
   }
 
-  .item__twentyFour:active {
+  .dropdown__item__twentyFour:active {
     background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
      url(../img/item__twentyFour.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border: none;
+     cursor: pointer;
   }
 
-  .item__twentyFive {
+  .dropdown__item__twentyFive {
     background-image:url(../img/item__twentyFive.png);
   }
 
-  .item__twentyFive:active {
+  .dropdown__item__twentyFive:active {
     background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
      url(../img/item__twentyFive.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border: none;
+     cursor: pointer;
   }
 
-  .item__twentySix {
+  .dropdown__item__twentySix {
     background-image:url(../img/item__twentyTwo.png);
   }
 
-  .item__twentySix:active {
+  .dropdown__item__twentySix:active {
     background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
-     url(../img/item__twentySix.png);
+     url(../img/item__twentyTwo.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border: none;
+     cursor: pointer;
   }
 
-  .item__twentySeven {
+  .dropdown__item__twentySeven {
     background-image:url(../img/item__twentyThree.png);
   }
 
-  .item__twentySeven:active {
+  .dropdown__item__twentySeven:active {
     background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
-     url(../img/item__twentySeven.png);
+     url(../img/item__twentyThree.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border: none;
+     cursor: pointer;
   }
 
-  .item__twentyEight {
+  .dropdown__item__twentyEight {
     background-image:url(../img/item__twentyFour.png);
   }
 
-  .item__twentyEight:active {
+  .dropdown__item__twentyEight:active {
     background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
-     url(../img/item__twentyEight.png);
+     url(../img/item__twentyFour.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border: none;
+     cursor: pointer;
   }
 
-  .item__twentyNine {
+  .dropdown__item__twentyNine {
     background-image:url(../img/item__twentyNine.png);
   }
 
-  .item__twentyNine:active {
+  .dropdown__item__twentyNine:active {
     background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
      url(../img/item__twentyNine.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border: none;
+     cursor: pointer;
   }
 
-  .item__thirty {
+  .dropdown__item__thirty {
     background-image:url(../img/item__thirty.png);
   }
 
-  .item__thirty:active {
+  .dropdown__item__thirty:active {
     background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
      url(../img/item__thirty.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border: none;
+     cursor: pointer;
   }
 
-  .item__thirtyOne {
+  .dropdown__item__thirtyOne {
     background-image:url(../img/item__thirtyOne.png);
   }
 
-  .item__thirtyOne:active {
+  .dropdown__item__thirtyOne:active {
     background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
      url(../img/item__thirtyOne.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border: none;
+     cursor: pointer;
   }
 
-  .item__thirtyTwo {
+  .dropdown__item__thirtyTwo {
     background-image:url(../img/item__thirtyTwo.png);
   }
 
-  .item__thirtyTwo:active {
+  .dropdown__item__thirtyTwo:active {
     background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
      url(../img/item__thirtyTwo.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border: none;
+     cursor: pointer;
   }
 
-  .item__thirtyThree {
+  .dropdown__item__thirtyThree {
     background-image:url(../img/item__twentyNine.png);
   }
 
-  .item__thirtyThree:active {
+  .dropdown__item__thirtyThree:active {
     background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
-     url(../img/item__thirtyThree.png);
+     url(../img/item__twentyNine.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border: none;
+     cursor: pointer;
   }
 
-  .item__thirtyFour {
+  .dropdown__item__thirtyFour {
     background-image:url(../img/item__thirty.png);
   }
 
-  .item__thirtyFour:active {
+  .dropdown__item__thirtyFour:active {
     background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
-     url(../img/item__thirtyFour.png);
+     url(../img/item__thirty.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border: none;
+     cursor: pointer;
   }
 
-  .item__thirtyFive {
+  .dropdown__item__thirtyFive {
     background-image:url(../img/item__thirtyOne.png);
   }
 
-  .item__thirtyFive:active {
+  .dropdown__item__thirtyFive:active {
     background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),
-     url(../img/item__thirtyFive.png);
+     url(../img/item__thirtyOne.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border: none;
+     cursor: pointer;
   }
 
   /*catalog*/
@@ -461,4 +619,8 @@
 
   .catalog__image_five {
     background-image: url(../img/francescko.jpg);
+  }
+
+  .catalog__image_six {
+    background-image: url(../img/catalog__img--none1920.jpg);
   }

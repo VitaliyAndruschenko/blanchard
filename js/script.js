@@ -9,7 +9,7 @@ document.querySelectorAll(".dropdown__simplebar").forEach(dropdown => {
 });
 })
 
-const btns = document.querySelectorAll(".menu__btn");
+const btns = document.querySelectorAll(".hero__menu__btn");
 const dropdowns = document.querySelectorAll(".dropdown");
 const activeClassdropdowns = "dropdown__active";
 const activeClassbtns = "btn__active";
@@ -80,77 +80,130 @@ myMap.geoObjects.add(myPlacemark);
           });
 
 /*slider_galley*/
-var swiper = new Swiper(".mySwiper__gallery", {
-    slidesPerView: 3,
-    spaceBetween: 50,
-    slidesPerGroup: 3,
-    loop: true,
-    loopFillGroupWithBlank: true,
+document.addEventListener("DOMContentLoaded", () => {
+  let gallerySlider = new Swiper(".gallery__slides__container", {
+    slidesPerView: 1,
+    grid: {
+      rows: 1,
+      fill: "row"
+    },
+    spaceBetween: 20,
+    pagination: {
+      el: ".gallery .gallery__pagination",
+      type: "fraction"
+    },
+    navigation: {
+      nextEl: ".gallery__test__next",
+      prevEl: ".gallery__test__prev"
+    },
+
     breakpoints: {
       320: {
         slidesPerView: 1,
-        spaceBetween: 38,
         slidesPerGroup: 1
       },
-      768: {
+      736: {
         slidesPerView: 2,
-        spaceBetween: 38,
-        slidesPerGroup: 2
+        slidesPerGroup: 2,
+        spaceBetween: 35
       },
-      1023: {
+
+      1400: {
         slidesPerView: 2,
-        spaceBetween: 34,
-        slidesPerGroup: 2
+        slidesPerGroup: 2,
+        spaceBetween: 34
       },
-      1399: {
+
+      1401: {
         slidesPerView: 3,
-        spaceBetween: 50,
-        slidesPerGroup: 3
+        slidesPerGroup: 3,
+        spaceBetween: 50
       }
     },
-    pagination: {
-      el: ".gallery__pagination",
-      clickable: true,
-      type: 'fraction',
-      renderBullet: function(index, className) {
-        return '<span class="' + className + '">' + (index + 1) + '</span>';
+
+    a11y: false,
+    keyboard: {
+      enabled: true,
+      onlyInViewport: true
+    }, // можно управлять с клавиатуры стрелками влево/вправо
+
+    // Дальнейшие надстройки делают слайды вне области видимости не фокусируемыми
+    watchSlidesProgress: true,
+    watchSlidesVisibility: true,
+    slideVisibleClass: "slide-visible",
+
+    on: {
+      init: function () {
+        this.slides.forEach((slide) => {
+          if (!slide.classList.contains("slide-visible")) {
+            slide.tabIndex = "-1";
+          } else {
+            slide.tabIndex = "";
+          }
+        });
       },
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
+      slideChange: function () {
+        this.slides.forEach((slide) => {
+          if (!slide.classList.contains("slide-visible")) {
+            slide.tabIndex = "-1";
+          } else {
+            slide.tabIndex = "";
+          }
+        });
+      }
+    }
   });
+});
 
   /*swiper_events*/
   var swiper = new Swiper(".events__swiper", {
     slidesPerView: 3,
-    spaceBetween: 40,
     slidesPerGroup: 3,
-    loop: true,
-    loopFillGroupWithBlank: true,
+    spaceBetween: 50,
+    // If we need pagination
     pagination: {
-      el: ".swiper-pagination",
       clickable: true,
+      el: '.events__pagination',
     },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.events__btn__next',
+      prevEl: '.events__btn__prev',
+    },
+  
     breakpoints: {
       320: {
+        spaceBetween: 30,
         slidesPerView: 1,
-        slidesPerGroup: 1
+        slidesPerGroup: 1,
       },
-      768: {
+  
+      600: {
+        spaceBetween: 34,
         slidesPerView: 2,
-        slidesPerGroup: 2
+        slidesPerGroup: 2,
       },
-      1023: {
+  
+      850: {
+        spaceBetween: 25,
         slidesPerView: 3,
-        slidesPerGroup: 3
+        slidesPerGroup: 3,
       },
+  
+      1025: {
+        spaceBetween: 24,
+        slidesPerView: 2,
+        slidesPerGroup: 2,
+      },
+  
+      1400: {
+        slidesPerView: 3,
+        slidesPerGroup: 3,
+        spaceBetween: 43,
+      }
     },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
+  
   });
 
   /*swiper__project*/
@@ -174,16 +227,21 @@ var swiper = new Swiper(".mySwiper__gallery", {
         slidesPerView: 2,
         spaceBetween: 34,
         slidesPerGroup: 2
-      },      
+      },   
+      1024: {
+        slidesPerView: 2,
+        spaceBetween: 50,
+        slidesPerGroup: 2
+      }, 
       1399: {
         slidesPerView: 3,
-        spaceBetween: 34,
+        spaceBetween: 50,
         slidesPerGroup: 3
       }
     },
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+      nextEl: ".project__btn__next",
+      prevEl: ".project__btn__prev",
     },
   });
   /*accordion*/
@@ -196,18 +254,18 @@ var swiper = new Swiper(".mySwiper__gallery", {
 
   /*cart__btn*/
 
-let tabsBtn = document.querySelectorAll('.catalog__artist_btn');
-let tabsItem = document.querySelectorAll('.content__box');
+let tabsBtn = document.querySelectorAll('.catalog__artist__btn');
+let tabsItem = document.querySelectorAll('.catalog__content__box');
 
 tabsBtn.forEach(function(element) {
  element.addEventListener('click' , function(e) {
   const path = e.currentTarget.dataset.path;
 
-  tabsBtn.forEach(function(btn){btn.classList.remove('catalog__artist_btn--active')});
-  e.currentTarget.classList.add('catalog__artist_btn--active');
+  tabsBtn.forEach(function(btn){btn.classList.remove('catalog__artist__btn--active')});
+  e.currentTarget.classList.add('catalog__artist__btn--active');
 
-  tabsItem.forEach(function(element){element.classList.remove('content__box--active')});
-  document.querySelector(`[data-target="${path}"`).classList.add('content__box--active');
+  tabsItem.forEach(function(element){element.classList.remove('catalog__content__box--active')});
+  document.querySelector(`[data-target="${path}"`).classList.add('catalog__content__box--active');
  });
 });
 
@@ -257,40 +315,84 @@ validation.addField("#name", [
 /*btn*/
 
 $(document).ready(function(){
-  $('.gallery__background_seach,.gellery__information_icon').click(function(event){
-    $('.gallery__information_page,.gallery__background_seach,.gellery__information_icon').toggleClass('active');
+  $('.gallery__information__icon').click(function(event){
+    $('.gallery__information__page,.gallery__information__icon').toggleClass('active');
   })
 });
 
 $(document).ready(function(){
-  $('.search__btn,.header__search_close').click(function(event){
-    $('.header__search_item,.header__search_input,.header__search_line,.search__btn,.header__search_close').toggleClass('active');
+  $('.header__search__btn,.header__search__close').click(function(event){
+    $('.header__search__item,.header__search__input,.header__search__line,.header__search__btn,.header__search__close').toggleClass('active');
   })
 });
 
 $ (document).ready(function(){
   $('.burger').click(function(event){
-    $('.burger,.nav,.header__logo,.header__serch,.header__nav_items').toggleClass('active');  
+    $('.burger,.nav,.header__logo,.header__serch,.header__nav__items,.header__office__link,.burger__line').toggleClass('active');  
     $('body').toggleClass('lock');
   })
 });
 
-/*popup*/
+//tooltip
 
-$ (document).ready(function(){
-  $('.toolType__link_one').click(function(event){
-    $('.toolType__link_one, .popup__one').toggleClass('active');  
-  })
+tippy('#projects-tooltip1', {
+  content: 'Пример современных тенденций - современная методология разработки',
+  maxWidth: 264,
+  theme: 'lilac',
+  //hideOnClick: false,
+  //trigger: 'click',
 });
 
-$ (document).ready(function(){
-  $('.toolType__link_one').click(function(event){
-    $('.toolType__link_one, .popup__one').toggleClass('active');  
-  })
+tippy('#projects-tooltip2', {
+  content: 'Приятно, граждане, наблюдать, как сделанные на базе аналитики выводы вызывают у вас эмоции',
+  maxWidth: 264,
+  theme: 'lilac',
 });
 
-$ (document).ready(function(){
-  $('.toolType__link_one').click(function(event){
-    $('.toolType__link_one, .popup__one').toggleClass('active');  
-  })
+
+tippy('#projects-tooltip3', {
+  content: 'В стремлении повысить качество',
+  maxWidth: 264,
+  theme: 'lilac',
 });
+
+  /*choices*/
+
+  jQuery(($) => {
+    $('.gallery__select').on('click', '.gallery__select__head', function () {
+        if ($(this).hasClass('open')) {
+            $(this).removeClass('open');
+            $(this).next().fadeOut();
+        } else {
+            $('.gallery__select__head').removeClass('open');
+            $('.gallery__select__list').fadeOut();
+            $(this).addClass('open');
+            $(this).next().fadeIn();
+        }
+    });
+
+    $('.gallery__select').on('click', '.gallery__select__item', function () {
+        $('.gallery__select__head').removeClass('open');
+        $(this).parent().fadeOut();
+        $(this).parent().prev().text($(this).text());
+        $(this).parent().prev().prev().val($(this).text());
+    });
+
+    $(document).click(function (e) {
+        if (!$(e.target).closest('.gallery__select').length) {
+            $('.gallery__select__head').removeClass('open');
+            $('.gallery__select__list').fadeOut();
+        }
+    });
+});
+
+//планый скролл по сайту
+
+const $page = $('html, body');
+$('a[href*="#"]').click(function() {
+    $page.animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 600);
+    return false;
+});
+
