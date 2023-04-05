@@ -153,7 +153,7 @@
      url(../img/item__one.png);
      background-repeat: no-repeat;
      background-size: cover;
-     border: none;
+     box-shadow: none;
      cursor: pointer;
   }
 
@@ -166,7 +166,7 @@
      url(../img/item__two.png);
      background-repeat: no-repeat;
      background-size: cover;
-     border: none;
+     box-shadow: none;
      cursor: pointer;
   }
 
@@ -179,7 +179,7 @@
      url(../img/item__three.png);
      background-repeat: no-repeat;
      background-size: cover;
-     border: none;
+     box-shadow: none;
      cursor: pointer;
   }
 
@@ -192,7 +192,7 @@
      url(../img/item__four.png);
      background-repeat: no-repeat;
      background-size: cover;
-     border: none;
+     box-shadow: none;
      cursor: pointer;
   }
 
@@ -205,7 +205,7 @@
      url(../img/item__one.png);
      background-repeat: no-repeat;
      background-size: cover;
-     border: none;
+     box-shadow: none;
      cursor: pointer;
   }
 
@@ -218,7 +218,7 @@
      url(../img/item__two.png);
      background-repeat: no-repeat;
      background-size: cover;
-     border: none;
+     box-shadow: none;
      cursor: pointer;
   }
 
@@ -231,7 +231,7 @@
      url(../img/item__three.png);
      background-repeat: no-repeat;
      background-size: cover;
-     border: none;
+     box-shadow: none;
      cursor: pointer;
   }
 
@@ -244,7 +244,7 @@
      url(../img/item__eight.png);
      background-repeat: no-repeat;
      background-size: cover;
-     border: none;
+     box-shadow: none;
      cursor: pointer;
   }
 
@@ -257,7 +257,7 @@
      url(../img/item__nine.png);
      background-repeat: no-repeat;
      background-size: cover;
-     border: none;
+     box-shadow: none;
      cursor: pointer;
   }
 
@@ -270,7 +270,7 @@
      url(../img/item__ten.png);
      background-repeat: no-repeat;
      background-size: cover;
-     border: none;
+     box-shadow: none;
      cursor: pointer;
   }
 
@@ -283,7 +283,7 @@
      url(../img/item__eleven.png);
      background-repeat: no-repeat;
      background-size: cover;
-     border: none;
+     box-shadow: none;
      cursor: pointer;
   }
 
@@ -296,7 +296,7 @@
      url(../img/item__eight.png);
      background-repeat: no-repeat;
      background-size: cover;
-     border: none;
+     box-shadow: none;
      cursor: pointer;
   }
 
@@ -309,7 +309,7 @@
      url(../img/item__nine.png);
      background-repeat: no-repeat;
      background-size: cover;
-     border: none;
+     box-shadow: none;
      cursor: pointer;
   }
 
@@ -322,7 +322,7 @@
      url(../img/item__ten.png);
      background-repeat: no-repeat;
      background-size: cover;
-     border: none;
+     box-shadow: none;
      cursor: pointer;
   }
 
@@ -335,7 +335,7 @@
      url(../img/item__fifteen.png);
      background-repeat: no-repeat;
      background-size: cover;
-     border: none;
+     box-shadow: none;
      cursor: pointer;
   }
 
@@ -348,7 +348,7 @@
      url(../img/item__sixteen.png);
      background-repeat: no-repeat;
      background-size: cover;
-     border: none;
+     box-shadow: none;
      cursor: pointer;
   }
 
@@ -361,7 +361,7 @@
      url(../img/item__seventeen.png);
      background-repeat: no-repeat;
      background-size: cover;
-     border: none;
+     box-shadow: none;
      cursor: pointer;
   }
 
@@ -374,7 +374,7 @@
      url(../img/item__eighteen.png);
      background-repeat: no-repeat;
      background-size: cover;
-     border: none;
+     box-shadow: none;
      cursor: pointer;
   }
 
@@ -387,7 +387,7 @@
      url(../img/item__fifteen.png);
      background-repeat: no-repeat;
      background-size: cover;
-     border: none;
+     box-shadow: none;
      cursor: pointer;
   }
 
@@ -400,7 +400,7 @@
      url(../img/item__sixteen.png);
      background-repeat: no-repeat;
      background-size: cover;
-     border: none;
+     box-shadow: none;
      cursor: pointer;
   }
 
@@ -413,7 +413,7 @@
      url(../img/item__seventeen.png);
      background-repeat: no-repeat;
      background-size: cover;
-     border: none;
+     box-shadow: none;
      cursor: pointer;
   }
 
@@ -426,7 +426,7 @@
      url(../img/item__twentyTwo.png);
      background-repeat: no-repeat;
      background-size: cover;
-     border: none;
+     box-shadow: none;
      cursor: pointer;
   }
 
@@ -439,7 +439,7 @@
      url(../img/item__twentyThree.png);
      background-repeat: no-repeat;
      background-size: cover;
-     border: none;
+     box-shadow: none;
      cursor: pointer;
   }
 
@@ -452,7 +452,7 @@
      url(../img/item__twentyFour.png);
      background-repeat: no-repeat;
      background-size: cover;
-     border: none;
+     box-shadow: none;
      cursor: pointer;
   }
 
@@ -465,7 +465,7 @@
      url(../img/item__twentyFive.png);
      background-repeat: no-repeat;
      background-size: cover;
-     border: none;
+     box-shadow: none;
      cursor: pointer;
   }
 
@@ -478,7 +478,7 @@
      url(../img/item__twentyTwo.png);
      background-repeat: no-repeat;
      background-size: cover;
-     border: none;
+     box-shadow: none;
      cursor: pointer;
   }
 
@@ -491,7 +491,7 @@
      url(../img/item__twentyThree.png);
      background-repeat: no-repeat;
      background-size: cover;
-     border: none;
+     box-shadow: none;
      cursor: pointer;
   }
 
@@ -504,7 +504,7 @@
      url(../img/item__twentyFour.png);
      background-repeat: no-repeat;
      background-size: cover;
-     border: none;
+     box-shadow: none;
      cursor: pointer;
   }
 
@@ -517,7 +517,7 @@
      url(../img/item__twentyNine.png);
      background-repeat: no-repeat;
      background-size: cover;
-     border: none;
+     box-shadow: none;
      cursor: pointer;
   }
 
@@ -530,7 +530,7 @@
      url(../img/item__thirty.png);
      background-repeat: no-repeat;
      background-size: cover;
-     border: none;
+     box-shadow: none;
      cursor: pointer;
   }
 
@@ -543,7 +543,7 @@
      url(../img/item__thirtyOne.png);
      background-repeat: no-repeat;
      background-size: cover;
-     border: none;
+     box-shadow: none;
      cursor: pointer;
   }
 
@@ -556,7 +556,7 @@
      url(../img/item__thirtyTwo.png);
      background-repeat: no-repeat;
      background-size: cover;
-     border: none;
+     box-shadow: none;
      cursor: pointer;
   }
 
@@ -569,7 +569,7 @@
      url(../img/item__twentyNine.png);
      background-repeat: no-repeat;
      background-size: cover;
-     border: none;
+     box-shadow: none;
      cursor: pointer;
   }
 
@@ -582,7 +582,7 @@
      url(../img/item__thirty.png);
      background-repeat: no-repeat;
      background-size: cover;
-     border: none;
+     box-shadow: none;
      cursor: pointer;
   }
 
@@ -595,7 +595,7 @@
      url(../img/item__thirtyOne.png);
      background-repeat: no-repeat;
      background-size: cover;
-     border: none;
+     box-shadow: none;
      cursor: pointer;
   }
 

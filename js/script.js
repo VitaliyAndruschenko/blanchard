@@ -187,13 +187,13 @@ document.addEventListener("DOMContentLoaded", () => {
   
       850: {
         spaceBetween: 25,
-        slidesPerView: 3,
+        slidesPerView: 2,
         slidesPerGroup: 3,
       },
   
       1025: {
         spaceBetween: 24,
-        slidesPerView: 2,
+        slidesPerView: 3,
         slidesPerGroup: 2,
       },
   
@@ -207,43 +207,47 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   /*swiper__project*/
-  var swiper = new Swiper(".project__swiper", {
+  const projectsSwiper = new Swiper(".projects-swiper", {
     slidesPerView: 3,
-    spaceBetween: 40,
-    slidesPerGroup: 3,
-    loop: true,
-    loopFillGroupWithBlank: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
+    slidesPerGroup: 1,
+    grid: {
+        rows: 1,
     },
-    breakpoints: {
-      320: {
-        slidesPerView: 1,
-        spaceBetween: 34,
-        slidesPerGroup: 1
-      },
-      768: {
-        slidesPerView: 2,
-        spaceBetween: 34,
-        slidesPerGroup: 2
-      },   
-      1024: {
-        slidesPerView: 2,
-        spaceBetween: 50,
-        slidesPerGroup: 2
-      }, 
-      1399: {
-        slidesPerView: 3,
-        spaceBetween: 50,
-        slidesPerGroup: 3
-      }
-    },
+    spaceBetween: 42,
     navigation: {
-      nextEl: ".project__btn__next",
-      prevEl: ".project__btn__prev",
+        nextEl: ".projects-next",
+        prevEl: ".projects-prev"
     },
-  });
+
+    breakpoints: {
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+        },
+        576: {
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+            spaceBetween: 34,
+        },
+        // 577: {
+        //   slidesPerView: 2,
+        //   grid: {
+        //     rows: 1,
+        //   },
+        //   spaceBetween: 10,
+        //  },
+        768: {
+            slidesPerView: 2,
+            slidesPerGroup: 1,
+            spaceBetween: 40,
+        },
+        1520: {
+            slidesPerView: 3,
+            slidesPerGroup: 1,
+            spaceBetween: 50,
+        },
+    }
+});
   /*accordion*/
 
   $('.accordion').accordion ({
@@ -320,11 +324,36 @@ $(document).ready(function(){
   })
 });
 
-$(document).ready(function(){
-  $('.header__search__btn,.header__search__close').click(function(event){
-    $('.header__search__item,.header__search__input,.header__search__line,.header__search__btn,.header__search__close').toggleClass('active');
-  })
+////////////////////////////////////////
+
+document.querySelector(".form-content__open").addEventListener("click", function() {
+  document.querySelector(".form-content__open").classList.add("active");
+  document.querySelector(".form-top").classList.add("form-top__active");
+  document.querySelector(".header__logo").classList.add("header__logo_active");
+  document.querySelector(".burger").classList.add("burger_active");
+  this.classList.add("active");
 });
+
+document.addEventListener("click", function(e) {
+  let target = e.target;
+  let form = document.querySelector(".form-top");
+  if (!target.closest(".form-content")) {
+      form.classList.remove("form-top__active");
+      form.querySelector(".form-top__input").value = "";
+      document.querySelector(".form-content__open").classList.remove("active")
+      document.querySelector(".header__logo").classList.remove("header__logo_active");
+      document.querySelector(".burger").classList.remove("burger_active");
+  }
+  if (target.closest(".form-top__close")) {
+      form.classList.remove("form-top__active");
+      form.querySelector(".form-top__input").value = "";
+      document.querySelector(".form-content__open").classList.remove("active");
+      document.querySelector(".header__logo").classList.remove("header__logo_active");
+      document.querySelector(".burger").classList.remove("burger_active");
+  }
+});
+
+/////////////////////////////////////////
 
 $ (document).ready(function(){
   $('.burger').click(function(event){
@@ -358,32 +387,11 @@ tippy('#projects-tooltip3', {
 
   /*choices*/
 
-  jQuery(($) => {
-    $('.gallery__select').on('click', '.gallery__select__head', function () {
-        if ($(this).hasClass('open')) {
-            $(this).removeClass('open');
-            $(this).next().fadeOut();
-        } else {
-            $('.gallery__select__head').removeClass('open');
-            $('.gallery__select__list').fadeOut();
-            $(this).addClass('open');
-            $(this).next().fadeIn();
-        }
-    });
-
-    $('.gallery__select').on('click', '.gallery__select__item', function () {
-        $('.gallery__select__head').removeClass('open');
-        $(this).parent().fadeOut();
-        $(this).parent().prev().text($(this).text());
-        $(this).parent().prev().prev().val($(this).text());
-    });
-
-    $(document).click(function (e) {
-        if (!$(e.target).closest('.gallery__select').length) {
-            $('.gallery__select__head').removeClass('open');
-            $('.gallery__select__list').fadeOut();
-        }
-    });
+const select = document.querySelector('.custom-select');
+const choices = new Choices(select, {
+  itemSelectText: '',
+  position: 'bottom',
+  searchEnabled: false,
 });
 
 //планый скролл по сайту
